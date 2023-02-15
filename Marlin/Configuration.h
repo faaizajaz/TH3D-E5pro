@@ -115,7 +115,7 @@
  */
 #define NOZZLE_TO_PROBE_OFFSET \
   {                            \
-    10, 10, 0                  \
+    -45, -15, 0                \
   }
 #endif
 
