@@ -225,7 +225,7 @@
 // during SD printing. If this is found at bootup it will ask you if you want to resume the print.
 //
 // NOTE: This feature causes excessive wear on your SD card.
-#define POWER_LOSS_RECOVERY
+// #define POWER_LOSS_RECOVERY
 
 //===========================================================================
 // **********************  END CONFIGURATION SETTINGS   *********************
