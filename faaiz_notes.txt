@@ -1,0 +1,9 @@
+2023-03-01 - 35eacd4b - master
+
+Working firmware for Ender 5 Pro (stock hotend, Trianglelab BMG clone extruder, stock steppers, Herome Gen5). Features included:
+    
+    - BLtouch with 5x5 bed leveling, correct nozzle offsets (Z offset needs to be dialed in on printer).
+    - Bed size modified for shorter Y because of HeromeGen5 cooling
+    - Preheat values set for PLA and ABS (but actually PETG) as I like
+    - E-Steps calibrated for BMG clone (417 steps/mm)
+    - Power loss recovery removed.
