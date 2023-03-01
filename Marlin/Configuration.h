@@ -202,7 +202,7 @@
 
 // LINEAR ADVANCE ----------------------------------
 // See here on how to use Linear Advance: http://marlinfw.org/docs/features/lin_advance.html
-// #define LINEAR_ADVANCE
+#define LINEAR_ADVANCE
 // Change the K Value here or use M900 KX.XX in your starting code (recommended).
 #define LINEAR_ADVANCE_K 0
 
@@ -347,7 +347,7 @@
 #if ENABLED(ENDER5_V422_BOARD) || ENABLED(ENDER5_V427_BOARD)
 #define USE_XMAX_PLUG
 #define USE_YMAX_PLUG
-#define USE_ZMIN_PLUG
+// #define USE_ZMIN_PLUG
 #else
 #define USE_XMIN_PLUG
 #define USE_YMIN_PLUG
@@ -428,10 +428,10 @@
 #define Z_DRIVER_TYPE TMC2208_STANDALONE
 #define E0_DRIVER_TYPE TMC2208_STANDALONE
 #else
-#define X_DRIVER_TYPE A4988
-#define Y_DRIVER_TYPE A4988
-#define Z_DRIVER_TYPE A4988
-#define E0_DRIVER_TYPE A4988
+#define X_DRIVER_TYPE TMC2208
+#define Y_DRIVER_TYPE TMC2208
+#define Z_DRIVER_TYPE TMC2208
+#define E0_DRIVER_TYPE TMC2208
 #endif
 
 #define ENDSTOP_INTERRUPTS_FEATURE
@@ -468,7 +468,7 @@
 #define ENCODER_STEPS_PER_MENU_ITEM 1
 
 #if ENABLED(EZOUT_ENABLE)
-#define FILAMENT_RUNOUT_SENSOR
+// #define FILAMENT_RUNOUT_SENSOR
 #define SPEAKER_KILL
 #endif
 
@@ -672,7 +672,7 @@
 #define POWER_LOSS_RECOVERY
 
 #if ENABLED(EZOUT_ENABLE)
-#define FILAMENT_RUNOUT_SENSOR
+// #define FILAMENT_RUNOUT_SENSOR
 #define SPEAKER_KILL
 #endif
 
