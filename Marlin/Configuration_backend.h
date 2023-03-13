@@ -558,7 +558,7 @@
 #if ENABLED(LEVEL_BED_CORNERS)
 #define LEVEL_CORNERS_INSET_LFRB \
   {                              \
-    30, 30, 30, 30               \
+    10, 10, 10, 10               \
   }
 #define LEVEL_CORNERS_HEIGHT 0.0
 #define LEVEL_CORNERS_Z_HOP 5.0
